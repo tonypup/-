@@ -1,4 +1,5 @@
 import requests
+
 url = 'https://rate.bot.com.tw/xrt/flcsv/0/day'  
 rate = requests.get(url)   
 rate.encoding = 'utf-8'    
